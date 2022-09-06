@@ -797,33 +797,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: side_wall_small_1
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 384
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d725c2910cc6e749843ce086eab45dd
-      internalID: -1869205670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: side_wall_small_2
       rect:
         serializedVersion: 2
-        x: 21
+        x: 22
         y: 368
-        width: 16
+        width: 15
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -834,27 +813,6 @@ TextureImporter:
       bones: []
       spriteID: f98fb4cc65ab7204ba121559d87ab89a
       internalID: 1663566511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: side_wall_small_3
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 352
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb8f771372de8cc4bb450db8b0955b1f
-      internalID: 1704038453
       vertices: []
       indices: 
       edges: []
@@ -889,7 +847,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
