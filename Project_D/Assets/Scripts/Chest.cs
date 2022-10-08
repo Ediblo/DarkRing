@@ -13,7 +13,7 @@ public class Chest : Collectable
 
             collected = true;
             GetComponent<SpriteRenderer>().sprite = empty_chest;
-            Debug.Log("Grant" + goldAmount + "gold!");
+            Debug.Log("Grant " + goldAmount + " gold!");
         }
     }
 }

@@ -7,7 +7,7 @@ public class Collectable : Collideble
     protected bool collected;
 
     protected override void OnCollide(Collider2D coll){
-        if(coll.name == "player")
+        if(coll.name == "Player")
         OnCollect();
     }
 

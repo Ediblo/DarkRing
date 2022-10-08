@@ -7,8 +7,9 @@ public class Portal : Collideble
     public string[] sceneNames;
 
     protected override void OnCollide(Collider2D coll){
-        if(coll.name == "player"){
+        if(coll.name == "Player"){
             
+            GameManager.instance.SaveState();
             string sceneName = sceneNames[Random.Range(0, sceneNames.Length)];
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
         }
