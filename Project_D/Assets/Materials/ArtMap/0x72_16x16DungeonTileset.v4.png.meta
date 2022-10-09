@@ -259,7 +259,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -280,7 +280,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -301,7 +301,7 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -322,7 +322,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -343,7 +343,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -351,6 +351,300 @@ TextureImporter:
       bones: []
       spriteID: b796627c1dfb91249ad5a01bf9c9c6d1
       internalID: -142803924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_great_sword
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 192
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c7e596c172b6e4682d937022b3fcad
+      internalID: 1451971658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper_sword
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 192
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4ff30a6ccb1814f9278ce6456dc467
+      internalID: 291061474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood_sword
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 225
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25427e8a958c76541bce554ae1fc22ac
+      internalID: 294351536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iron_sword
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 225
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d15ef5370e9d8143a82ffcc44f0cf09
+      internalID: -1863285645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iron_sword_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 225
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1971f59b9b8ff408b170d05c798581
+      internalID: -1099359015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iron_great_sword
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 225
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb92095229718ec48844b00ab54a714c
+      internalID: -1802386707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iron_odachi
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 225
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae686dae2033f34dad89a8188fd87d3
+      internalID: -1668927620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iron_katana
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 193
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e856d804a31bd364485fe72b6f21f310
+      internalID: -1878092082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iron_blade
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 193
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22bd9b9f0fd3104ba9e191c8794f7c2
+      internalID: 776939673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steel_odachi
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 193
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a0517307deec746a1e7c551c4e6a6c
+      internalID: -1193878566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steel_sword
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 193
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50bf4a4422042e44b6fcc8771984d41
+      internalID: -1863847516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steel_sword_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 193
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edae95a471190634fa68b48a37c5260e
+      internalID: 191378425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excalibur
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 193
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f562df9ff49c984995662d07a2c7ca4
+      internalID: -18739776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_orge
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 80
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498c4218fe6965b4a945cee3c2b07ccd
+      internalID: 994954845
       vertices: []
       indices: 
       edges: []
@@ -366,6 +660,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      steel_sword: -1863847516
       nomal_chest: 1631980790
       big_gold_chest: -142803924
       empty_chest: -213574390
@@ -373,11 +668,24 @@ TextureImporter:
       stair: 387791978
       box_1: 2076476063
       empty_gold_chest: 2122724816
+      iron_odachi: -1668927620
+      copper_sword: 291061474
+      iron_katana: -1878092082
+      steel_odachi: -1193878566
       Peter: 377831178
+      copper_great_sword: 1451971658
+      excalibur: -18739776
       box_3: -1239787452
       small_gold_chest: 2100155572
       bg: 1504701400
+      iron_sword_2: -1099359015
+      iron_sword: -1863285645
+      steel_sword_2: 191378425
+      iron_blade: 776939673
       box_2: 2099819522
+      wood_sword: 294351536
+      iron_great_sword: -1802386707
+      small_orge: 994954845
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
