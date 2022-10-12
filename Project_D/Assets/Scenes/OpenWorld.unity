@@ -9339,8 +9339,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1439506341}
   - component: {fileID: 1439506342}
-  - component: {fileID: 1439506344}
   - component: {fileID: 1439506343}
+  - component: {fileID: 1439506344}
   m_Layer: 0
   m_Name: wood_sword
   m_TagString: Untagged
@@ -11179,7 +11179,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0036678277, y: -0.002750881}
+  m_Offset: {x: 0.0030053183, y: -0.00076346286}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11190,7 +11190,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.08166082, y: 0.09449825}
+  m_Size: {x: 0.09623523, y: 0.093173295}
   m_EdgeRadius: 0
 --- !u!212 &1728183293
 SpriteRenderer:

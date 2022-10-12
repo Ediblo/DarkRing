@@ -6,6 +6,7 @@ public class Weapon : Collideble
 {
     public int damagePoint = 1;
     public float pushForce = 2.0f;
+    
 
     public int weaponLevel = 0;
     private SpriteRenderer spriteRenderer;
@@ -14,7 +15,7 @@ public class Weapon : Collideble
     private float lastSwing;
 
     protected override void Start(){
-        base.Start();
+        boxCollider = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -31,8 +32,10 @@ public class Weapon : Collideble
 
     protected override void OnCollide(Collider2D coll){
         if(coll.tag == "Fighter"){
-            if(coll.name == "Player")
+            if(coll.name == "Player"){
                 return;
+            }
+
             
             Damage dmg = new Damage{
                 damageAmount = damagePoint,

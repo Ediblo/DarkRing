@@ -13,7 +13,7 @@ public class Fighter : MonoBehaviour
 
     protected Vector3 pushDirection;
 
-    protected virtual void ReceiveDamge(Damage dmg){
+    protected virtual void ReceiveDamage(Damage dmg){
         if(Time.time - lastImmune > immnuneTime){
             lastImmune = Time.time;
             hitpoint -= dmg.damageAmount;
