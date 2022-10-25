@@ -392,6 +392,7 @@
 "Assets/Scripts/Collideble.cs"
 "Assets/Scripts/Damage.cs"
 "Assets/Scripts/Enemy.cs"
+"Assets/Scripts/EnemyHitbox.cs"
 "Assets/Scripts/Fighter.cs"
 "Assets/Scripts/FloatingText.cs"
 "Assets/Scripts/FloatingTextManager.cs"

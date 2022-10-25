@@ -4,19 +4,24 @@ using UnityEngine;
 
 public class Weapon : Collideble
 {
+    // Sat thuong
     public int damagePoint = 1;
     public float pushForce = 2.0f;
     
-
+    // Nang cap vu khi
     public int weaponLevel = 0;
     private SpriteRenderer spriteRenderer;
 
+
+    // Animation chem
+    private Animator anim;
     private float cooldown = 0.5f;
     private float lastSwing;
 
     protected override void Start(){
         boxCollider = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     protected override void Update(){
@@ -48,6 +53,7 @@ public class Weapon : Collideble
     }
 
     private void Swing(){
-        Debug.Log("Swing");
+        anim.SetTrigger("Swing");
+        
     }
 }
