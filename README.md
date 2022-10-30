@@ -3,6 +3,10 @@ First RPG Game
 
 Learning how to make a unity game
 
+Project in university
+
+This's my first game I make in Unity.
+
 Asset link:
 - https://0x72.itch.io/dungeontileset-ii
 
