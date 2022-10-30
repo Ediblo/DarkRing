@@ -230,7 +230,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nomal_chest
+      name: menu_0
       rect:
         serializedVersion: 2
         x: 224
@@ -637,7 +637,7 @@ TextureImporter:
         width: 10
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -661,7 +661,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       steel_sword: -1863847516
-      nomal_chest: 1631980790
       big_gold_chest: -142803924
       empty_chest: -213574390
       rare_chest: -410443388
@@ -685,6 +684,7 @@ TextureImporter:
       box_2: 2099819522
       wood_sword: 294351536
       iron_great_sword: -1802386707
+      menu_0: 1631980790
       small_orge: 994954845
   spritePackingTag: 
   pSDRemoveMatte: 0

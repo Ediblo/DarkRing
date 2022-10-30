@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : Mover 
 {
     public int xpValue = 1;
-
+    public int goldValue = 1;
     public float triggerLenght = 1;
     public float chaseLenght = 5;
     private bool chasing;
@@ -61,7 +61,9 @@ public class Enemy : Mover
 
     protected override void Death(){
         Destroy(gameObject);
-        GameManager.instance.experience += xpValue;
+        GameManager.instance.GrantXp(xpValue);
+        GameManager.instance.gold += goldValue;
         GameManager.instance.ShowText("+" + xpValue + "xp" , 30, Color.magenta, transform.position, Vector3.up * 40, 1.0f);
+        GameManager.instance.ShowText("+" + goldValue + "gold" , 30, Color.yellow, transform.position, Vector3.up * 80, 1.0f);
     }
 }

@@ -859,6 +859,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: f_player
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 480
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f841a56e057c54aa9db5ac72f8f514
+      internalID: 1828371611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -899,6 +920,7 @@ TextureImporter:
       wall_blueflag: -2139094634
       floor_2: 851258425
       floor_3: -233446905
+      f_player: 1828371611
       pillar: -297467047
       poisionfloor_1: 264209096
       wall_greenflag: 1928701214

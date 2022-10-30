@@ -326,8 +326,22 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/CharacterMenu.cs"
 "Assets/Scripts/CameraMotor.cs"
+"Assets/Scripts/Chest.cs"
+"Assets/Scripts/Collectable.cs"
+"Assets/Scripts/Collideble.cs"
+"Assets/Scripts/Damage.cs"
+"Assets/Scripts/Enemy.cs"
+"Assets/Scripts/EnemyHitbox.cs"
+"Assets/Scripts/Fighter.cs"
+"Assets/Scripts/FloatingText.cs"
+"Assets/Scripts/FloatingTextManager.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Mover.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/Portal.cs"
+"Assets/Scripts/Weapon.cs"
 -langversion:9.0
 
 /deterministic

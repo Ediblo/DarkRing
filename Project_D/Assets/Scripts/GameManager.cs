@@ -17,13 +17,13 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded += LoadState;
         DontDestroyOnLoad(gameObject);
     }
-        public List<Sprite> playerSpirtes;
+        public List<Sprite> playerSprites;
         public List<Sprite> weaponSprites;
         public List<int> weaponPrices;
         public List<int> xpTable;
 
         public Player player;
-
+        public Weapon weapon;
         public FloatingTextManager floatingTextManager;
 
         public int gold;
@@ -33,6 +33,62 @@ public class GameManager : MonoBehaviour
             floatingTextManager.Show(msg, fontSize, color, position, motion, duration);
         }
 
+        // Nang cap vu khi 
+        public bool TryUpgradeWeapon(){
+            // Kiem tra vu khi da max level
+            if(weaponPrices.Count <= weapon.weaponLevel)
+                return false;
+
+            if(gold >= weaponPrices[weapon.weaponLevel]){
+                gold -= weaponPrices[weapon.weaponLevel];
+                weapon.UpgradeWeapon();
+                return true;
+            }
+
+            return false;
+        }
+
+        // He thong kinh nghiem
+        public int GetCurrentLevel(){
+            int r = 0;
+            int add = 0;
+
+            while(experience >= add){
+                add += xpTable[r];
+                r++; 
+
+                if(r == xpTable.Count) // Kiem tra max level
+                    return r;
+            }
+
+            return r;
+
+        }
+
+        public int GetXpToLevel(int level){
+            int r = 0;
+            int xp = 0;
+
+            while(r < level){
+                xp += xpTable[r];
+                r++;
+            }
+
+            return xp;
+        }
+
+        public void GrantXp(int xp){
+            int currLevel = GetCurrentLevel();
+            experience += xp;
+            if(currLevel < GetCurrentLevel())
+                OnLevelUp();
+        }
+
+        public void OnLevelUp(){
+            player.OnLevelUp();
+        }
+            
+
         public void SaveState(){
 
             string s = " ";
@@ -40,7 +96,7 @@ public class GameManager : MonoBehaviour
             s += "0" + " | ";
             s += gold.ToString() + " | ";
             s += experience.ToString() + " | ";
-            s += "0";
+            s += weapon.weaponLevel.ToString();
 
             PlayerPrefs.SetString("SaveState", s);
         }
@@ -54,7 +110,9 @@ public class GameManager : MonoBehaviour
 
             gold = int.Parse(data[1]);
             experience = int.Parse(data[2]);
-
+            if(GetCurrentLevel() != 1)
+                player.SetLevel(GetCurrentLevel());
+            weapon.SetWeaponLevel(int.Parse(data[3]));
             
             
             Debug.Log("LoadState");
