@@ -63,7 +63,7 @@ public class Enemy : Mover
         Destroy(gameObject);
         GameManager.instance.GrantXp(xpValue);
         GameManager.instance.gold += goldValue;
-        GameManager.instance.ShowText("+" + xpValue + "xp" , 30, Color.magenta, transform.position, Vector3.up * 40, 1.0f);
-        GameManager.instance.ShowText("+" + goldValue + "gold" , 30, Color.yellow, transform.position, Vector3.up * 80, 1.0f);
+        GameManager.instance.ShowText("+" + xpValue + " xp" , 40, Color.magenta, transform.position, Vector3.up * 40, 1.0f);
+        GameManager.instance.ShowText("+" + goldValue + " gold" , 40, Color.yellow, transform.position, Vector3.up * 80, 1.0f);
     }
 }

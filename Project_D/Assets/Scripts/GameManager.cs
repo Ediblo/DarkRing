@@ -10,12 +10,18 @@ public class GameManager : MonoBehaviour
     private void Awake() {
         if(GameManager.instance != null){
             Destroy(gameObject);
+            Destroy(player.gameObject);
+            Destroy(floatingTextManager.gameObject);
+            Destroy(hud);
+            Destroy(menu);
+            Destroy(pausemenu);
             return;           
         }
         
         instance = this;
         SceneManager.sceneLoaded += LoadState;
-        DontDestroyOnLoad(gameObject);
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        
     }
         public List<Sprite> playerSprites;
         public List<Sprite> weaponSprites;
@@ -25,6 +31,11 @@ public class GameManager : MonoBehaviour
         public Player player;
         public Weapon weapon;
         public FloatingTextManager floatingTextManager;
+        public RectTransform hitpointBar;
+        public Animator deathMenuAnim;
+        public GameObject hud;
+        public GameObject menu;
+        public GameObject pausemenu;
 
         public int gold;
         public int experience;
@@ -46,6 +57,11 @@ public class GameManager : MonoBehaviour
             }
 
             return false;
+        }
+
+        public void OnHitPointChange(){
+            float ratio = (float)player.hitpoint / (float)player.maxHitpoint;
+            hitpointBar.localScale = new Vector3(1, ratio, 1);
         }
 
         // He thong kinh nghiem
@@ -86,6 +102,19 @@ public class GameManager : MonoBehaviour
 
         public void OnLevelUp(){
             player.OnLevelUp();
+            OnHitPointChange();
+        }
+
+        // Load Scene
+        public void OnSceneLoaded(Scene s, LoadSceneMode mode){
+            player.transform.position = GameObject.Find("SpawnPoint").transform.position;
+        }
+
+        // Death menu and Respawn
+        public void Respawn(){
+            deathMenuAnim.SetTrigger("Hide");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("OpenWorld");
+            player.Respawn();
         }
             
 
@@ -103,6 +132,8 @@ public class GameManager : MonoBehaviour
 
         public void LoadState(Scene s, LoadSceneMode mode){
 
+            SceneManager.sceneLoaded -= LoadState;
+
             if(!PlayerPrefs.HasKey("SaveState"))
                 return;
 
@@ -115,7 +146,7 @@ public class GameManager : MonoBehaviour
             weapon.SetWeaponLevel(int.Parse(data[3]));
             
             
-            Debug.Log("LoadState");
+            
         }
     
 }

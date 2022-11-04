@@ -41,10 +41,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -92,6 +90,24 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AnimationModule
     fullTypeName: UnityEngine.Animator
     methodName: SetTrigger
+  - assembly: Assembly-CSharp
+    fullTypeName: CharacterMenu
+    methodName: OnArrowClick
+  - assembly: Assembly-CSharp
+    fullTypeName: CharacterMenu
+    methodName: OnArrowClick
+  - assembly: UnityEngine.AnimationModule
+    fullTypeName: UnityEngine.Animator
+    methodName: SetTrigger
+  - assembly: UnityEngine.AnimationModule
+    fullTypeName: UnityEngine.Animator
+    methodName: SetTrigger
+  - assembly: Assembly-CSharp
+    fullTypeName: CharacterMenu
+    methodName: UpdateMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: CharacterMenu
+    methodName: OnUpgradeClick
   sceneClasses:
     Assets/Scenes/Dungeon1.unity:
     - Class: 1
@@ -108,19 +124,37 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 718}
     - Class: 114
-      Script: {instanceID: 1906}
+      Script: {instanceID: 1604}
+    - Class: 114
+      Script: {instanceID: 1606}
+    - Class: 114
+      Script: {instanceID: 3322}
+    - Class: 114
+      Script: {instanceID: 3720}
+    - Class: 114
+      Script: {instanceID: 3882}
     - Class: 114
       Script: {instanceID: 6590}
     - Class: 114
-      Script: {instanceID: 7678}
+      Script: {instanceID: 7338}
+    - Class: 114
+      Script: {instanceID: 9978}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -129,6 +163,14 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -202,7 +244,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8032}
     - Class: 114
-      Script: {instanceID: 85864}
+      Script: {instanceID: 9978}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1248,6 +1290,12 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
+      Hash: a86958ac8da700718bd43aef754bc2d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterMenu
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
@@ -1318,12 +1366,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: a86958ac8da700718bd43aef754bc2d8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CharacterMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/OpenWorld.unity
