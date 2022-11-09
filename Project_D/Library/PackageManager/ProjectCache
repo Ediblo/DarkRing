@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/DarkRing/Project_D/Packages/manifest.json
+    m_FilePath: C:/Users/ASUS/Documents/GitHub/DarkRing/Project_D/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638031764771703255
-    m_Hash: 3476488968
+      ticks: 638032261448575325
+    m_Hash: 3049746486
   m_LockFileStatus:
-    m_FilePath: D:/DarkRing/Project_D/Packages/packages-lock.json
+    m_FilePath: C:/Users/ASUS/Documents/GitHub/DarkRing/Project_D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638031764771703255
-    m_Hash: 1609928682
+      ticks: 638032261791398741
+    m_Hash: 2334714445
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/DarkRing/Project_D/Packages
-m_EditorVersion: 2021.3.0f1 (6eacc8284459)
+m_ProjectPath: C:/Users/ASUS/Documents/GitHub/DarkRing/Project_D/Packages
+m_EditorVersion: 2021.3.10f1 (1c7d0df0160b)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.2d.sprite@1.0.0
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -78,7 +78,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.2d.tilemap@1.0.0
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -128,7 +128,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.7.5
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.ads@3.7.5
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.ads@3.7.5
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement
@@ -137,7 +137,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Unity Ads is a video ad network for iOS and Android that allows you
     to quickly and effectively monetize your games.
   status: 4
@@ -220,7 +220,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637635162230000000
   documentationUrl: 
@@ -238,7 +238,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.6.12
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.analytics@3.6.12
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.analytics@3.6.12
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -335,7 +335,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.17.2
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.collab-proxy@1.17.2
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.collab-proxy@1.17.2
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -344,7 +344,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: asset
+  type: 
   description: The Version Control package gives you the ability to use either Collaborate
     or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
     (beta), a Plastic SCM subscription is required. Learn more about how you can
@@ -415,12 +415,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.15.15
-    - 1.15.16
-    - 1.15.17
-    - 1.15.18
-    - 1.17.0
-    - 1.17.1
     - 1.17.2
     - 1.17.6
     - 2.0.0-preview.6
@@ -433,14 +427,18 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.18
+    verified: 1.17.6
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.0.1
+    version: 1.4.2
   - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   keywords:
   - backup
@@ -463,7 +461,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637937432480000000
   documentationUrl: 
@@ -474,14 +472,14 @@ m_ResolvedPackages:
     revision: 14d129dcc778f8ea2fdf9d0240b47924e4f0dbb1
     path: 
   unityLifecycle:
-    version: 1.15.15
+    version: 1.17.2
     nextVersion: 
 - packageId: com.unity.feature.2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.feature.2d@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.feature.2d@1.0.0
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -521,13 +519,13 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 7.0.4
+    version: 7.0.7
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 6.0.4
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
-    version: 1.2.5
+    version: 1.2.6
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -539,15 +537,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.6.6
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.2d.pixel-perfect
     version: 5.0.1
   - name: com.unity.2d.psdimporter
-    version: 6.0.3
+    version: 6.0.5
   - name: com.unity.2d.spriteshape
-    version: 7.0.4
+    version: 7.0.6
   - name: com.unity.2d.path
     version: 5.0.2
   - name: com.unity.modules.physics2d
@@ -555,7 +553,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.tilemap
     version: 1.0.0
   - name: com.unity.2d.tilemap.extras
-    version: 2.2.1
+    version: 2.2.3
   - name: com.unity.modules.tilemap
     version: 1.0.0
   - name: com.unity.ugui
@@ -586,7 +584,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.15
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.ide.rider@3.0.15
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.ide.rider@3.0.15
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -595,7 +593,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -636,8 +634,6 @@ m_ResolvedPackages:
     - 3.0.15
     - 3.0.16
     compatible:
-    - 3.0.13
-    - 3.0.14
     - 3.0.15
     - 3.0.16
     verified: 3.0.16
@@ -655,7 +651,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637914298700000000
   documentationUrl: 
@@ -666,14 +662,14 @@ m_ResolvedPackages:
     revision: b61ff0378932fdf03b5891e09c91728337de674c
     path: 
   unityLifecycle:
-    version: 3.0.13
+    version: 3.0.15
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.16
   testable: 0
   isDirectDependency: 1
   version: 2.0.16
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -710,8 +706,6 @@ m_ResolvedPackages:
     - 2.0.15
     - 2.0.16
     compatible:
-    - 2.0.14
-    - 2.0.15
     - 2.0.16
     verified: 2.0.16
   dependencies:
@@ -745,14 +739,14 @@ m_ResolvedPackages:
     revision: c01855ef6461b821ab0226135e96a4ee86de96be
     path: 
   unityLifecycle:
-    version: 2.0.14
+    version: 2.0.16
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -808,12 +802,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.purchasing@4.1.3
+- packageId: com.unity.purchasing@4.4.1
   testable: 0
   isDirectDependency: 1
-  version: 4.1.3
+  version: 4.4.1
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.purchasing@4.1.3
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.purchasing@4.4.1
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -899,18 +893,10 @@ m_ResolvedPackages:
     - 4.5.0
     - 4.5.1
     compatible:
-    - 4.1.3
-    - 4.1.4
-    - 4.1.5
-    - 4.2.0-pre.1
-    - 4.2.0-pre.2
-    - 4.2.1
-    - 4.3.0
-    - 4.4.0
     - 4.4.1
     - 4.5.0
     - 4.5.1
-    verified: 4.1.5
+    verified: 4.4.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -923,7 +909,9 @@ m_ResolvedPackages:
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.0.1
+    version: 1.3.1
+  - name: com.unity.services.analytics
+    version: 4.0.1
   resolvedDependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -940,7 +928,11 @@ m_ResolvedPackages:
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.0.1
+    version: 1.4.2
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.services.analytics
+    version: 4.2.0
   keywords:
   - purchasing
   - iap
@@ -954,23 +946,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637799302690000000
+  datePublishedTicks: 637967563500000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
-    revision: 8207d5de2cd24c44f9756fa5c4332ee2298ef83c
+    revision: 9dba5d5eda45d5841b3bcb9fadeba1b2ed5ef45b
     path: 
   unityLifecycle:
-    version: 4.1.3
+    version: 4.4.1
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
   version: 1.1.33
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -979,7 +971,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: asset
+  type: 
   description: Test framework for running Edit mode and Play mode tests in Unity.
   status: 4
   errors: []
@@ -1055,7 +1047,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637938212700000000
   documentationUrl: 
@@ -1073,7 +1065,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1238,7 +1230,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.1
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.timeline@1.7.1
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.timeline@1.7.1
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1384,7 +1376,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1446,7 +1438,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.8
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.visualscripting@1.7.8
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.visualscripting@1.7.8
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1455,7 +1447,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -1489,8 +1481,6 @@ m_ResolvedPackages:
     - 1.7.8
     - 1.8.0-pre.1
     compatible:
-    - 1.7.6
-    - 1.7.7
     - 1.7.8
     verified: 1.7.8
   dependencies:
@@ -1526,14 +1516,14 @@ m_ResolvedPackages:
     revision: 775a560e6602f51ff05aca02264f8bed4d415fd3
     path: 
   unityLifecycle:
-    version: 1.7.6
+    version: 1.7.8
     nextVersion: 
-- packageId: com.unity.xr.legacyinputhelpers@2.1.9
+- packageId: com.unity.xr.legacyinputhelpers@2.1.10
   testable: 0
   isDirectDependency: 1
-  version: 2.1.9
+  version: 2.1.10
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -1542,7 +1532,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: XR
-  type: asset
+  type: 
   description: This package includes the tracked pose driver for the legacy input
     system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
     Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
@@ -1579,7 +1569,6 @@ m_ResolvedPackages:
     - 2.1.9
     - 2.1.10
     compatible:
-    - 2.1.9
     - 2.1.10
     verified: 2.1.10
   dependencies:
@@ -1611,25 +1600,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637812095140000000
+  datePublishedTicks: 637958908030000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-    revision: 8e4581a11c14b64d41aabb67f51b0d8a0c75f5c4
+    revision: 465ee12451634ea2b2986d54f6ae8be37316772a
     path: 
   unityLifecycle:
-    version: 2.1.9
+    version: 2.1.10
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1677,7 +1666,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1724,7 +1713,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1772,7 +1761,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1820,7 +1809,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1868,7 +1857,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1920,7 +1909,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1976,7 +1965,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2025,7 +2014,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2073,7 +2062,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2121,7 +2110,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2169,7 +2158,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2217,7 +2206,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2265,7 +2254,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2317,7 +2306,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2365,7 +2354,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2421,7 +2410,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2472,7 +2461,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2520,7 +2509,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2584,7 +2573,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2632,7 +2621,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2688,7 +2677,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2736,7 +2725,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2792,7 +2781,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2848,7 +2837,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2904,7 +2893,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2976,7 +2965,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3028,7 +3017,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3088,7 +3077,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3150,7 +3139,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3198,7 +3187,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3258,7 +3247,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3310,7 +3299,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
   displayName: UIElements Native
@@ -3369,7 +3358,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3392,9 +3381,11 @@ m_ResolvedPackages:
     - 1.0.5
     - 1.0.6
     - 2.0.2
+    - 2.0.3
     compatible:
     - 1.0.6
     - 2.0.2
+    - 2.0.3
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -3422,12 +3413,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-- packageId: com.unity.services.core@1.0.1
+- packageId: com.unity.services.core@1.4.2
   testable: 0
   isDirectDependency: 0
-  version: 1.0.1
+  version: 1.4.2
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.services.core@1.0.1
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.services.core@1.4.2
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -3436,12 +3427,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'This package defines common components used by multiple Game Service
     packages.
 
     These are standardized and aim to unify the overall experience
-    of working with Game Services packages.'
+    of working with Game Services SDK.'
   status: 4
   errors: []
   versions:
@@ -3456,23 +3447,114 @@ m_ResolvedPackages:
     - 1.1.0-pre.69
     - 1.2.0
     - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
     compatible:
-    - 1.0.1
-    - 1.1.0-pre.7
-    - 1.1.0-pre.8
-    - 1.1.0-pre.9
-    - 1.1.0-pre.10
-    - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    - 1.1.0-pre.69
-    - 1.2.0
-    - 1.3.1
-    verified: 1.0.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637919618520000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 3964d1641ebec474aa425853985bccbdb89c2a49
+    path: 
+  unityLifecycle:
+    version: 1.4.2
+    nextVersion: 
+- packageId: com.unity.services.analytics@4.2.0
+  testable: 0
+  isDirectDependency: 0
+  version: 4.2.0
+  source: 1
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.services.analytics@4.2.0
+  assetPath: Packages/com.unity.services.analytics
+  name: com.unity.services.analytics
+  displayName: Analytics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Unity Analytics package automatically collects core events and
+    user properties when someone uses your game or application, and enables you to
+    track specific in-game actions your user performs by defining custom events.
+    The data collected from this package is surfaced in the Unity dashboard where
+    you can use it to gather user insights, segment your player base and make informed
+    decisions around the optimization of your game.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 2.0.7-pre.4
+    - 2.0.7-pre.6
+    - 2.0.7-pre.7
+    - 3.0.0-pre.2
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.2.0
+    compatible:
+    - 4.2.0
+    verified: 4.2.0
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.4.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.4.2
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   keywords: []
   registry:
@@ -3484,23 +3566,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637604883250000000
+  datePublishedTicks: 637970128630000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
+    revision: 40445d94118e139ce5bff46afdeb574502a2e3c9
     path: 
   unityLifecycle:
-    version: 1.0.1
-    nextVersion: 1.1.0-pre.8
-- packageId: com.unity.2d.animation@7.0.4
+    version: 4.2.0
+    nextVersion: 
+- packageId: com.unity.2d.animation@7.0.7
   testable: 0
   isDirectDependency: 0
-  version: 7.0.4
+  version: 7.0.7
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.2d.animation@7.0.4
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.2d.animation@7.0.7
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -3509,7 +3591,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: asset
   description: 2D Animation provides all the necessary tooling and runtime components
     for skeletal animation using Sprites.
   status: 4
@@ -3586,6 +3668,8 @@ m_ResolvedPackages:
     - 5.1.1
     - 5.2.0
     - 5.2.1
+    - 5.2.3
+    - 5.2.4
     - 6.0.0-pre.1
     - 6.0.0-pre.2
     - 6.0.1
@@ -3602,21 +3686,25 @@ m_ResolvedPackages:
     - 7.0.4
     - 7.0.5
     - 7.0.6
+    - 7.0.7
+    - 7.0.8
     - 8.0.0-pre.3
     - 8.0.0-pre.4
     - 8.0.0
     - 8.0.1
     - 8.0.2
+    - 8.0.3
+    - 8.0.4
     - 9.0.0-pre.1
     - 9.0.0-pre.3
+    - 9.0.0
     compatible:
-    - 7.0.4
-    - 7.0.5
-    - 7.0.6
-    verified: 7.0.6
+    - 7.0.7
+    - 7.0.8
+    verified: 7.0.8
   dependencies:
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 6.0.4
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.animation
@@ -3625,11 +3713,11 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 6.0.4
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
-    version: 1.2.5
+    version: 1.2.6
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3641,7 +3729,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.6.6
   - name: com.unity.modules.animation
     version: 1.0.0
   keywords:
@@ -3654,25 +3742,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637817447860000000
+  datePublishedTicks: 637958913350000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
+    revision: 6b783c5dfb5a72d73e2b0a70d1caf4a367c58805
     path: 
   unityLifecycle:
-    version: 7.0.4
+    version: 7.0.7
     nextVersion: 
 - packageId: com.unity.2d.pixel-perfect@5.0.1
   testable: 0
   isDirectDependency: 0
   version: 5.0.1
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.1
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.1
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -3681,7 +3769,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera component
     which ensures your pixel art remains crisp and clear at different resolutions,
     and stable in motion.
@@ -3711,9 +3799,13 @@ m_ResolvedPackages:
     - 5.0.0-pre.2
     - 5.0.0
     - 5.0.1
+    - 5.0.2
+    - 5.0.3
     compatible:
     - 5.0.1
-    verified: 5.0.1
+    - 5.0.2
+    - 5.0.3
+    verified: 5.0.3
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3741,12 +3833,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 5.0.1
     nextVersion: 
-- packageId: com.unity.2d.psdimporter@6.0.3
+- packageId: com.unity.2d.psdimporter@6.0.5
   testable: 0
   isDirectDependency: 0
-  version: 6.0.3
+  version: 6.0.5
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.2d.psdimporter@6.0.3
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.2d.psdimporter@6.0.5
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -3755,7 +3847,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: asset
   description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop Big)
     file format. The ScriptedImporter is currently targeted for users who wants to
     create multi Sprite character animation using Unity 2D Animation Package.
@@ -3802,6 +3894,7 @@ m_ResolvedPackages:
     - 4.1.3
     - 4.2.0
     - 4.3.0
+    - 4.3.1
     - 5.0.0-pre.1
     - 5.0.0-pre.2
     - 5.0.1
@@ -3816,32 +3909,37 @@ m_ResolvedPackages:
     - 6.0.2
     - 6.0.3
     - 6.0.4
+    - 6.0.5
+    - 6.0.6
     - 7.0.0-pre.3
     - 7.0.0-pre.4
     - 7.0.0
     - 7.0.1
+    - 7.0.2
+    - 7.0.3
     - 8.0.0-pre.1
     - 8.0.0-pre.3
+    - 8.0.0
     compatible:
-    - 6.0.3
-    - 6.0.4
-    verified: 6.0.4
+    - 6.0.5
+    - 6.0.6
+    verified: 6.0.6
   dependencies:
   - name: com.unity.2d.animation
-    version: 7.0.4
+    version: 7.0.7
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 6.0.4
   - name: com.unity.2d.sprite
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 7.0.4
+    version: 7.0.7
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 6.0.4
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
-    version: 1.2.5
+    version: 1.2.6
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3853,7 +3951,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.6.6
   - name: com.unity.modules.animation
     version: 1.0.0
   keywords:
@@ -3867,25 +3965,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637817447900000000
+  datePublishedTicks: 637958913380000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
+    revision: 21cf4d65740fb2e92caf175a7fcaea68198fa577
     path: 
   unityLifecycle:
-    version: 6.0.3
+    version: 6.0.5
     nextVersion: 
-- packageId: com.unity.2d.spriteshape@7.0.4
+- packageId: com.unity.2d.spriteshape@7.0.6
   testable: 0
   isDirectDependency: 0
-  version: 7.0.4
+  version: 7.0.6
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.2d.spriteshape@7.0.4
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.2d.spriteshape@7.0.6
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -3968,27 +4066,31 @@ m_ResolvedPackages:
     - 7.0.2
     - 7.0.3
     - 7.0.4
+    - 7.0.5
+    - 7.0.6
     - 8.0.0-pre.4
     - 8.0.0-pre.5
     - 8.0.0
+    - 8.0.1
     - 9.0.0-pre.1
+    - 9.0.0
     compatible:
-    - 7.0.4
-    verified: 7.0.4
+    - 7.0.6
+    verified: 7.0.6
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 6.0.4
   - name: com.unity.2d.path
     version: 5.0.2
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.mathematics
-    version: 1.2.5
+    version: 1.2.6
   - name: com.unity.2d.common
-    version: 6.0.3
+    version: 6.0.4
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -4002,7 +4104,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.6.6
   - name: com.unity.2d.path
     version: 5.0.2
   - name: com.unity.modules.physics2d
@@ -4023,23 +4125,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637817447990000000
+  datePublishedTicks: 637958913420000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
+    revision: 6b783c5dfb5a72d73e2b0a70d1caf4a367c58805
     path: 
   unityLifecycle:
-    version: 7.0.4
+    version: 7.0.6
     nextVersion: 
-- packageId: com.unity.2d.tilemap.extras@2.2.1
+- packageId: com.unity.2d.tilemap.extras@2.2.3
   testable: 0
   isDirectDependency: 0
-  version: 2.2.1
+  version: 2.2.3
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.1
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -4078,16 +4180,20 @@ m_ResolvedPackages:
     - 1.8.0-preview
     - 1.8.1-preview
     - 1.8.2-preview
+    - 1.8.3-preview
     - 2.0.0-pre.1
     - 2.0.0-pre.2
     - 2.0.0
     - 2.2.0
     - 2.2.1
+    - 2.2.2
+    - 2.2.3
     - 3.0.0
     - 3.0.1
+    - 3.0.2
     compatible:
-    - 2.2.1
-    verified: 2.2.1
+    - 2.2.3
+    verified: 2.2.3
   dependencies:
   - name: com.unity.modules.tilemap
     version: 1.0.0
@@ -4123,23 +4229,91 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637690415140000000
+  datePublishedTicks: 637892785880000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/2d-extras.git
-    revision: ab6199c75d7737ad61837747f178a999273bcf88
+    revision: 23a879f6458e28d4082f486e6c2375ef4c281145
     path: 
   unityLifecycle:
-    version: 2.2.1
+    version: 2.2.3
     nextVersion: 
-- packageId: com.unity.mathematics@1.2.5
+- packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0
   isDirectDependency: 0
-  version: 1.2.5
+  version: 3.0.2
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.mathematics@1.2.5
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 13.0.1.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    compatible:
+    - 3.0.2
+    verified: 3.0.2
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637846828220000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: 8f66870a71ad3f2cdd46330b5c482dfd138ffc64
+    path: 
+  unityLifecycle:
+    version: 3.0.2
+    nextVersion: 
+- packageId: com.unity.mathematics@1.2.6
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.6
+  source: 1
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -4173,7 +4347,6 @@ m_ResolvedPackages:
     - 1.2.5
     - 1.2.6
     compatible:
-    - 1.2.5
     - 1.2.6
     verified: 1.2.6
   dependencies: []
@@ -4189,23 +4362,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637719892670000000
+  datePublishedTicks: 637841876140000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 53b0c4756c3c0dff3746285a8b83e858c26cdb06
+    revision: f110c8c230d253654afed153569030a587cc7557
     path: 
   unityLifecycle:
-    version: 1.2.5
+    version: 1.2.6
     nextVersion: 
-- packageId: com.unity.2d.common@6.0.3
+- packageId: com.unity.2d.common@6.0.4
   testable: 0
   isDirectDependency: 0
-  version: 6.0.3
+  version: 6.0.4
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.2d.common@6.0.3
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.2d.common@6.0.4
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -4214,7 +4387,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: asset
   description: 2D Common is a package that contains shared functionalities that are
     used by most of the other 2D packages.
   status: 4
@@ -4242,6 +4415,7 @@ m_ResolvedPackages:
     - 4.0.4
     - 4.1.0
     - 4.2.0
+    - 4.2.1
     - 5.0.0-pre.1
     - 5.0.0-pre.2
     - 5.0.0
@@ -4252,12 +4426,20 @@ m_ResolvedPackages:
     - 6.0.1
     - 6.0.2
     - 6.0.3
+    - 6.0.4
+    - 6.0.5
     - 7.0.0-pre.3
     - 7.0.0-pre.4
     - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 8.0.0-pre.1
+    - 8.0.0-pre.2
+    - 8.0.0
     compatible:
-    - 6.0.3
-    verified: 6.0.3
+    - 6.0.4
+    - 6.0.5
+    verified: 6.0.5
   dependencies:
   - name: com.unity.2d.sprite
     version: 1.0.0
@@ -4271,7 +4453,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
-    version: 1.2.5
+    version: 1.2.6
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4283,7 +4465,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.6.6
   keywords:
   - 2d
   registry:
@@ -4293,25 +4475,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637817447740000000
+  datePublishedTicks: 637958913310000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
+    revision: 6b783c5dfb5a72d73e2b0a70d1caf4a367c58805
     path: 
   unityLifecycle:
-    version: 6.0.3
+    version: 6.0.4
     nextVersion: 
 - packageId: com.unity.2d.path@5.0.2
   testable: 0
   isDirectDependency: 0
   version: 5.0.2
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.2d.path@5.0.2
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.2d.path@5.0.2
   assetPath: Packages/com.unity.2d.path
   name: com.unity.2d.path
   displayName: 2D Path
@@ -4376,12 +4558,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 5.0.2
     nextVersion: 
-- packageId: com.unity.burst@1.6.5
+- packageId: com.unity.burst@1.6.6
   testable: 0
   isDirectDependency: 0
-  version: 1.6.5
+  version: 1.6.6
   source: 1
-  resolvedPath: D:\DarkRing\Project_D\Library\PackageCache\com.unity.burst@1.6.5
+  resolvedPath: C:\Users\ASUS\Documents\GitHub\DarkRing\Project_D\Library\PackageCache\com.unity.burst@1.6.6
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4390,7 +4572,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
   status: 4
@@ -4504,19 +4686,36 @@ m_ResolvedPackages:
     - 1.6.3
     - 1.6.4
     - 1.6.5
+    - 1.6.6
     - 1.7.0-pre.1
     - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
     compatible:
-    - 1.6.5
+    - 1.6.6
     - 1.7.0-pre.1
     - 1.7.0
-    verified: 1.6.5
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    verified: 1.6.6
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   resolvedDependencies:
   - name: com.unity.mathematics
-    version: 1.2.5
+    version: 1.2.6
   keywords: []
   registry:
     id: main
@@ -4525,16 +4724,16 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637835629630000000
+  datePublishedTicks: 637902875830000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: 370080478647882de41c08e5ca4b4ec26032d9c7
+    revision: 21ee3d01c6a374f6b01106f9eb6f1b43e113b1a3
     path: 
   unityLifecycle:
-    version: 1.6.5
+    version: 1.6.6
     nextVersion: 
