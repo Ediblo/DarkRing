@@ -7,19 +7,11 @@
     },
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-11-10T11:28:38.3850911Z"
-    },
-    {
-      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-04-01T06:10:00Z"
-    },
-    {
-      "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-      "LastWriteTime": "2022-04-01T06:10:00Z"
+      "LastWriteTime": "2022-11-11T08:46:02.363918Z"
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-11-10T11:28:38.8389047Z"
+      "LastWriteTime": "2022-11-11T08:46:01.6500975Z"
     },
     {
       "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -27,7 +19,11 @@
     },
     {
       "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-11-10T11:28:38.7850482Z"
+      "LastWriteTime": "2022-11-11T08:46:02.5978545Z"
+    },
+    {
+      "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "LastWriteTime": "2022-04-01T06:10:00Z"
     },
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -35,11 +31,15 @@
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-11-10T11:28:38.5326976Z"
+      "LastWriteTime": "2022-11-11T08:46:03.8929238Z"
+    },
+    {
+      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-04-01T06:10:00Z"
     },
     {
       "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-11-10T11:28:38.7177156Z"
+      "LastWriteTime": "2022-11-11T08:46:03.3338562Z"
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -59,8 +59,7 @@
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
     },
     {
@@ -69,9 +68,10 @@
       "ModuleHash": "35ca5048b284ddc01317d06e9accbfe4",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
-        8,
         7,
-        3
+        8,
+        6,
+        5
       ]
     },
     {
@@ -80,9 +80,9 @@
       "ModuleHash": "e570da3c6833ed06b7c86ea9a052d743",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
-        8,
         7,
-        3
+        6,
+        5
       ]
     },
     {
@@ -93,10 +93,10 @@
       "AssemblyDependencyIndices": [
         9,
         10,
-        3,
-        4,
-        8,
+        5,
+        2,
         7,
+        6,
         0
       ]
     },
@@ -107,12 +107,12 @@
       "LinkName": "7D2E04AB7759F565",
       "AssemblyDependencyIndices": [
         9,
-        3,
+        5,
         0,
-        4,
-        7,
-        8,
+        2,
         6,
+        7,
+        4,
         10
       ]
     },
@@ -123,12 +123,12 @@
       "LinkName": "4E9252389FAD9FEE",
       "AssemblyDependencyIndices": [
         9,
-        3,
+        5,
         0,
-        4,
-        8,
+        2,
         7,
         6,
+        4,
         10
       ]
     }
