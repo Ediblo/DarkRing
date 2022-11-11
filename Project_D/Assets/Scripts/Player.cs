@@ -6,12 +6,22 @@ public class Player : Mover
 {
     private SpriteRenderer spriteRenderer;
     private bool isAlive = true;
+ /*   private Inventory inventory;
+
+    [SerializeField] private UI_Inventory uiInventory;
+
+    private void Awake(){
+        inventory = new Inventory();
+        uiInventory.SetInventory(inventory);
+
+        ItemWorld.SpawnItemWorld(new Vector3(3,3), new Item {itemType = Item.ItemType.HealthPotion, amount = 1});
+        ItemWorld.SpawnItemWorld(new Vector3(-3,3), new Item {itemType = Item.ItemType.ManaPotion, amount = 1});
+    } */
+    
 
     protected override void Start(){
         base.Start();
         spriteRenderer =  GetComponent<SpriteRenderer>();
-
-        
     }
 
     protected override void ReceiveDamage(Damage dmg){
@@ -64,5 +74,6 @@ public class Player : Mover
         isAlive = true;
         lastImmune = Time.time;
         pushDirection = Vector3.zero;
+        
     }
 }

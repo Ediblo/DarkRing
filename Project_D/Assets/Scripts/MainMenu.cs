@@ -12,16 +12,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void OpenYesNo(){
-        QuitGame.SetActive(true);
-        Time.timeScale = 1f;
-    }
-
-    public void CloseYesNo(){
-        QuitGame.SetActive(false);
-        Time.timeScale = 1f;
-    }
-
     public void Exit(){
         Application.Quit();
     }

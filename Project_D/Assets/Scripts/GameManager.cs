@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    
 
     private void Awake() {
         if(GameManager.instance != null){
@@ -15,12 +16,14 @@ public class GameManager : MonoBehaviour
             Destroy(hud);
             Destroy(menu);
             Destroy(pausemenu);
+            
             return;           
         }
         
         instance = this;
         SceneManager.sceneLoaded += LoadState;
         SceneManager.sceneLoaded += OnSceneLoaded;
+        
         
     }
         public List<Sprite> playerSprites;
@@ -30,6 +33,7 @@ public class GameManager : MonoBehaviour
 
         public Player player;
         public Weapon weapon;
+        
         public FloatingTextManager floatingTextManager;
         public RectTransform hitpointBar;
         public Animator deathMenuAnim;
@@ -113,7 +117,7 @@ public class GameManager : MonoBehaviour
         // Death menu and Respawn
         public void Respawn(){
             deathMenuAnim.SetTrigger("Hide");
-            UnityEngine.SceneManagement.SceneManager.LoadScene("OpenWorld");
+            UnityEngine.SceneManagement.SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             player.Respawn();
         }
             
@@ -126,7 +130,7 @@ public class GameManager : MonoBehaviour
             s += gold.ToString() + " | ";
             s += experience.ToString() + " | ";
             s += weapon.weaponLevel.ToString();
-
+           
             PlayerPrefs.SetString("SaveState", s);
         }
 
