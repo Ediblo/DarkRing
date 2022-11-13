@@ -4953,6 +4953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -5671,6 +5672,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458e37e328efa424792831f66efa9350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &844971610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2582078687155054212, guid: 0c0bb17a36a2b6e46b8342a10e571c0f, type: 3}
+  m_PrefabInstance: {fileID: 6926728225506407080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &844971613
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844971610}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.21}
+    newSize: {x: 0.16, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.21}
+  m_EdgeRadius: 0
 --- !u!1 &866165186
 GameObject:
   m_ObjectHideFlags: 0
@@ -12436,8 +12468,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9f2bb514a3076947a3c6545c52a35f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitpoint: 10
-  maxHitpoint: 10
+  hitpoint: 20
+  maxHitpoint: 20
   pushRecoverySpeed: 0.05
 --- !u!212 &1320659846
 SpriteRenderer:
@@ -14935,6 +14967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -16684,6 +16717,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: small_orge_1
       objectReference: {fileID: 0}
+    - target: {fileID: 3064457477025154541, guid: 5ae0949a4410d86419e7a1e76f3d8723, type: 3}
+      propertyPath: chaseLenght
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3064457477025154541, guid: 5ae0949a4410d86419e7a1e76f3d8723, type: 3}
+      propertyPath: triggerLenght
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 3064457477025154543, guid: 5ae0949a4410d86419e7a1e76f3d8723, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -17164,6 +17205,14 @@ PrefabInstance:
     - target: {fileID: 3492998509077088898, guid: 2889fb87e33909a4ba578199836a8c30, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492998509077088900, guid: 2889fb87e33909a4ba578199836a8c30, type: 3}
+      propertyPath: m_Size.y
+      value: 0.19389555
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492998509077088900, guid: 2889fb87e33909a4ba578199836a8c30, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0030522384
       objectReference: {fileID: 0}
     - target: {fileID: 3492998509077088903, guid: 2889fb87e33909a4ba578199836a8c30, type: 3}
       propertyPath: m_Name

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8545417410709410039}
   - component: {fileID: 8545417410709410037}
   - component: {fileID: 8545417410709410038}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,9 +100,9 @@ GameObject:
   - component: {fileID: 8545417411431644460}
   - component: {fileID: 8545417411431644461}
   - component: {fileID: 8545417411431644462}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: senior_orge_1
-  m_TagString: Untagged
+  m_TagString: Fighter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

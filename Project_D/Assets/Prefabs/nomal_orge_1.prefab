@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5144990193423892721}
   - component: {fileID: 5144990193423892726}
   - component: {fileID: 5144990193423892727}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: nomal_orge_1
-  m_TagString: Untagged
+  m_TagString: Fighter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 5144990194037996159}
   - component: {fileID: 5144990194037996153}
   - component: {fileID: 5144990194037996158}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
