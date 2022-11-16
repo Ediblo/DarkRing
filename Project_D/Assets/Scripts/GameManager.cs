@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
 
         public int gold;
         public int experience;
+        
 
         public void ShowText(string msg, int fontSize, Color color, Vector3 position, Vector3 motion, float duration){
             floatingTextManager.Show(msg, fontSize, color, position, motion, duration);
@@ -129,6 +130,7 @@ public class GameManager : MonoBehaviour
             s += "0" + " | ";
             s += gold.ToString() + " | ";
             s += experience.ToString() + " | ";
+            
             s += weapon.weaponLevel.ToString();
            
             PlayerPrefs.SetString("SaveState", s);
@@ -148,6 +150,7 @@ public class GameManager : MonoBehaviour
             if(GetCurrentLevel() != 1)
                 player.SetLevel(GetCurrentLevel());
             weapon.SetWeaponLevel(int.Parse(data[3]));
+            
             
             
             
