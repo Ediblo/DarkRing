@@ -22,7 +22,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
@@ -46,10 +45,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -132,21 +129,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 728}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 3114}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 3170}
     - Class: 114
-      Script: {instanceID: 4014}
+      Script: {instanceID: 4000}
     - Class: 114
-      Script: {instanceID: 5012}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 5234}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 6866}
+      Script: {instanceID: 6838}
     - Class: 114
-      Script: {instanceID: 8278}
+      Script: {instanceID: 8248}
     - Class: 114
-      Script: {instanceID: 8396}
+      Script: {instanceID: 8360}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -180,20 +177,32 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 728}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 3114}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 3170}
     - Class: 114
-      Script: {instanceID: 6866}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 8396}
+      Script: {instanceID: 5210}
+    - Class: 114
+      Script: {instanceID: 6838}
+    - Class: 114
+      Script: {instanceID: 8248}
+    - Class: 114
+      Script: {instanceID: 8360}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -248,49 +257,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1618}
     - Class: 114
-      Script: {instanceID: 1934}
+      Script: {instanceID: 1932}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 3114}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 3170}
     - Class: 114
-      Script: {instanceID: 3410}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 3844}
+      Script: {instanceID: 3830}
     - Class: 114
-      Script: {instanceID: 3904}
+      Script: {instanceID: 3890}
     - Class: 114
-      Script: {instanceID: 4014}
+      Script: {instanceID: 4000}
     - Class: 114
-      Script: {instanceID: 4070}
+      Script: {instanceID: 4054}
     - Class: 114
-      Script: {instanceID: 4862}
+      Script: {instanceID: 4844}
     - Class: 114
-      Script: {instanceID: 5012}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 5234}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 5298}
+      Script: {instanceID: 5274}
     - Class: 114
-      Script: {instanceID: 6866}
+      Script: {instanceID: 6838}
     - Class: 114
-      Script: {instanceID: 7660}
+      Script: {instanceID: 7624}
     - Class: 114
-      Script: {instanceID: 8024}
+      Script: {instanceID: 7994}
     - Class: 114
-      Script: {instanceID: 8166}
+      Script: {instanceID: 8136}
     - Class: 114
-      Script: {instanceID: 8278}
+      Script: {instanceID: 8248}
     - Class: 114
-      Script: {instanceID: 8396}
+      Script: {instanceID: 8360}
     - Class: 114
-      Script: {instanceID: 8874}
+      Script: {instanceID: 8836}
     - Class: 114
-      Script: {instanceID: 10118}
+      Script: {instanceID: 10070}
     - Class: 114
-      Script: {instanceID: 10438}
+      Script: {instanceID: 10386}
     - Class: 114
-      Script: {instanceID: 10614}
+      Script: {instanceID: 10562}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1477,4 +1486,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/OpenWorld.unity
   - Assets/Scenes/Dungeon1.unity
   - Assets/Scenes/Dungeon2.unity
-  playerPath: C:/Users/ASUS/Desktop/New folder (2)/Project_D.exe
+  playerPath: C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D.exe
