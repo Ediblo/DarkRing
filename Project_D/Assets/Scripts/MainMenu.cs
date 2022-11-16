@@ -6,13 +6,22 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
+    public GameObject DeleteSaveInfo;
     public GameObject QuitGame;
 
     public void PlayGame(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("OpenWorld");
     }
 
     public void Exit(){
         Application.Quit();
     }
+
+    public void DeleteAll(){
+        PlayerPrefs.DeleteAll();
+        
+    }
+
+
+   
 }
