@@ -800,9 +800,9 @@ TextureImporter:
       name: side_wall_small_2
       rect:
         serializedVersion: 2
-        x: 22
-        y: 368
-        width: 15
+        x: 21
+        y: 372
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1750,7 +1750,7 @@ TextureImporter:
         width: 10
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1758,6 +1758,90 @@ TextureImporter:
       bones: []
       spriteID: 4bce5cd195d98054583e9cf0340e2963
       internalID: 1806332655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_wall_small_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 372
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1a929817982ed4abb69a512068a842
+      internalID: 1669940714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: test_wall
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b8f9b27b07c6f46aa738b8bed86707
+      internalID: 1355970344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: test_wall_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 372
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee377c3a600673744a3a382f1ee26e06
+      internalID: 381776901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: test_wall_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 340
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb52a70271b4ef4e903683513e76fa9
+      internalID: -20130071
       vertices: []
       indices: 
       edges: []
@@ -1778,11 +1862,13 @@ TextureImporter:
       wall_0: -968366138
       manapotion: 1806332655
       big_orge_3: -721888020
+      test_wall: 1355970344
       floor_7: -1881030470
       wall_1: 541483771
       side_wall_2: -924067829
       floor_5: 1598826125
       big_orge_2: 1334712643
+      test_wall_3: -20130071
       big_orge_5: 1217248146
       side_wall_1: 1469933528
       waterwall_1: 1175635846
@@ -1831,7 +1917,7 @@ TextureImporter:
       side_wall_small_2: 1663566511
       small_orge_7: -205620833
       nomal_orge_1: 670171227
-      side_wall_small_3: 1704038453
+      side_wall_small_3: 1669940714
       wall_redflag: -797857538
       ladder_floor: 2101022678
       small_orge_8: -1533664490
@@ -1841,6 +1927,7 @@ TextureImporter:
       waterfloor_1: -1240724399
       senior_orge_6: -2113301327
       heathpotion: -566638855
+      test_wall_2: 381776901
       wall_blueflag: -2139094634
       floor_3: -233446905
       senior_orge_8: 1781697661

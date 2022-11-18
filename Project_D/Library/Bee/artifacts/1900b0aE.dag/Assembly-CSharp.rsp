@@ -399,6 +399,7 @@
 "Assets/Scripts/Collideble.cs"
 "Assets/Scripts/Damage.cs"
 "Assets/Scripts/DontDestroy.cs"
+"Assets/Scripts/EndGame.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemyHitbox.cs"
 "Assets/Scripts/Fighter.cs"

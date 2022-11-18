@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
-    public GameObject DeleteSaveInfo;
-    public GameObject QuitGame;
+    public GameObject DeleteSave_UI;
+    
 
     public void PlayGame(){
         SceneManager.LoadScene("OpenWorld");
@@ -18,8 +18,12 @@ public class MainMenu : MonoBehaviour
     }
 
     public void DeleteAll(){
+      //  DeleteSave_UI.SetActive(true);
         PlayerPrefs.DeleteAll();
-        
+    }
+
+    public void CloseDeletePanel(){
+     //   DeleteSave_UI.SetActive(false);
     }
 
 
