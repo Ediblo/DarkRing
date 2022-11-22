@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -43,6 +44,8 @@ public class GameManager : MonoBehaviour
 
         public int gold;
         public int experience;
+
+       
         
 
         public void ShowText(string msg, int fontSize, Color color, Vector3 position, Vector3 motion, float duration){
@@ -83,7 +86,6 @@ public class GameManager : MonoBehaviour
             }
 
             return r;
-
         }
 
         public int GetXpToLevel(int level){

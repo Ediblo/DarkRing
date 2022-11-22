@@ -412,6 +412,7 @@
 "Assets/Scripts/ItemAsset.cs"
 "Assets/Scripts/ItemWorld.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/MenuOut.cs"
 "Assets/Scripts/Mover.cs"
 "Assets/Scripts/NPCTextPerson.cs"
 "Assets/Scripts/PauseMenu.cs"

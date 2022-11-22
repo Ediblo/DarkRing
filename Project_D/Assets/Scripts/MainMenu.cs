@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
     
 
     public void PlayGame(){
+        PlayerPrefs.DeleteAll();
         SceneManager.LoadScene("OpenWorld");
     }
 
@@ -19,7 +20,7 @@ public class MainMenu : MonoBehaviour
 
     public void DeleteAll(){
       //  DeleteSave_UI.SetActive(true);
-        PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene("OpenWorld");
     }
 
     public void CloseDeletePanel(){

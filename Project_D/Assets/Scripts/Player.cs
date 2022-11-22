@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : Mover
 {
@@ -54,8 +55,8 @@ public class Player : Mover
     }
 
     public void SetLevel(int level){
-            for(int i = 0; i < level; i++)
-                OnLevelUp();
+        for(int i = 0; i < level; i++)
+            OnLevelUp();
     }
     
     public void Heal(int healingAmount){

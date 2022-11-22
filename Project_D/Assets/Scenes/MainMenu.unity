@@ -195,7 +195,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Delete Save
+  m_Text: Continues
 --- !u!222 &78918384
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4378,7 +4378,7 @@ GameObject:
   - component: {fileID: 499367090}
   - component: {fileID: 499367089}
   m_Layer: 5
-  m_Name: PlayGame
+  m_Name: NewGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5224,7 +5224,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play game
+  m_Text: New game
 --- !u!222 &990681277
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5342,7 +5342,7 @@ GameObject:
   - component: {fileID: 1118518568}
   - component: {fileID: 1118518567}
   m_Layer: 5
-  m_Name: DeleteSave
+  m_Name: Continues
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

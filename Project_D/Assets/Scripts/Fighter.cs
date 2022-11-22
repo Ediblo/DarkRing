@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Fighter : MonoBehaviour
 {
     public int hitpoint = 10;
@@ -19,7 +20,10 @@ public class Fighter : MonoBehaviour
             hitpoint -= dmg.damageAmount;
             pushDirection = (transform.position - dmg.origin).normalized * dmg.pushForce;
 
-            GameManager.instance.ShowText(dmg.damageAmount.ToString(), 30, Color.red, transform.position, Vector3.zero, 0.5f);
+            if(gameObject.name == "Player")
+                GameManager.instance.ShowText(dmg.damageAmount.ToString(), 30, Color.white, transform.position, Vector3.zero, 0.5f);
+            else
+                GameManager.instance.ShowText(dmg.damageAmount.ToString(), 30, Color.red, transform.position, Vector3.zero, 0.5f);
 
             if(hitpoint <= 0){
                 hitpoint = 0;
