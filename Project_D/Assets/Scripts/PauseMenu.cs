@@ -10,6 +10,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
 
     public GameObject QuitGame;
+
+    public GameObject settingUI;
     
 
    
@@ -72,4 +74,19 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("Map2");
     }
+
+    public void OpenSettingUI(){
+        Time.timeScale = 0f;
+        GameIsPause = true;
+        pauseMenuUI.SetActive(false);
+        settingUI.SetActive(true);
+    }
+
+    public void BackPause(){
+        pauseMenuUI.SetActive(true);
+        settingUI.SetActive(false);
+        Time.timeScale = 0f;
+        GameIsPause = true;
+    }
+
 }

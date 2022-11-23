@@ -123,6 +123,14 @@ public class GameManager : MonoBehaviour
             UnityEngine.SceneManagement.SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             player.Respawn();
         }
+
+        public void NewGameAfterDead(){
+            
+            deathMenuAnim.SetTrigger("Hide");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("OpenWorld");
+            player.Respawn2();
+            
+        }
             
 
         public void SaveState(){

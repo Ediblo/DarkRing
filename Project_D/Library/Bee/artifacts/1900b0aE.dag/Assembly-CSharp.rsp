@@ -418,6 +418,7 @@
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Portal.cs"
+"Assets/Scripts/SettingMenu.cs"
 "Assets/Scripts/UI_Inventory.cs"
 "Assets/Scripts/Weapon.cs"
 -langversion:9.0

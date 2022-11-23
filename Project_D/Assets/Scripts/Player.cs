@@ -75,6 +75,19 @@ public class Player : Mover
         isAlive = true;
         lastImmune = Time.time;
         pushDirection = Vector3.zero;
-        
     }
+
+    public void Respawn2(){
+        Heal(maxHitpoint = 20);
+        isAlive = true;
+        GameManager.instance.gold = 0;
+        GameManager.instance.experience = 0;
+        GameManager.instance.weapon.weaponLevel = 0;
+        
+        
+        lastImmune = Time.time;
+        pushDirection = Vector3.zero;
+    }
+
+  
 }
