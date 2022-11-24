@@ -1,0 +1,848 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1669287809057530, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669287809059750, "dur": 67281, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669287809127351, "dur": 2061853, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669287811189225, "dur": 10034, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669287838938234, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669287838938606, "dur": 10400, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669287838949029, "dur": 983193, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669287839932224, "dur": 1667, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669287839934439, "dur": 20, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669287838997879, "dur":2447, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839000342, "dur":303, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669287839000720, "dur":80, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669287839000802, "dur":1280, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669287839002117, "dur":953, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839003070, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907053, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907060, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907074, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907077, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907088, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907090, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907101, "dur":360, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907462, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907488, "dur":86, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907575, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907596, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907599, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907610, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907612, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907621, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907624, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907632, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907634, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907643, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907645, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907654, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907656, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907665, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907667, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907675, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907677, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907686, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907689, "dur":36, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907725, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907727, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907735, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907738, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907748, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907769, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839907791, "dur":2522, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669287839002379, "dur":838, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839003217, "dur":10668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839013885, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669287839013963, "dur":479, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839014446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839021266, "dur":38103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669287839059397, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839059431, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839059455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839059461, "dur":17180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839076673, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839076709, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839076786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839076924, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839077580, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839077709, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839077728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839077764, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839078372, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839078399, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839078417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839078422, "dur":16615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839095061, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839095089, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839095110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839095115, "dur":36801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839131959, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839132062, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839132105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839132116, "dur":23241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839155398, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839155433, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839155469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839155478, "dur":84145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839239866, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839239914, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839239947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839239954, "dur":138108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839378106, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839378141, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839378327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839378335, "dur":58495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669287839436866, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1669287839437003, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839437070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839437077, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1669287839439515, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1669287839439551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669287839439557, "dur":3666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1669287839443260, "dur":463757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839002062, "dur":1091, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839003153, "dur":10923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839014077, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669287839014151, "dur":378, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839014534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839025027, "dur":62097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669287839087152, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839087184, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839087207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839087214, "dur":3391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839090629, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839090658, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839090678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839090684, "dur":152891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839243616, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839243649, "dur":13098, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839256755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839256764, "dur":22258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839279122, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839279157, "dur":1251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839280426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839280436, "dur":3817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839284288, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839284409, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839284453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839284461, "dur":85471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839370138, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839370347, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839370421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839370429, "dur":6440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839376904, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839376934, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839377027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839377036, "dur":6266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839383337, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839383692, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839383813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839383821, "dur":4160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839388013, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839388045, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839388117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839388125, "dur":3736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839391893, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839391930, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839392096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839392104, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839394670, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839394710, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839394900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839395012, "dur":3436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839398479, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839398696, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839398734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839398741, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839401187, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839401350, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839401420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839401427, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669287839404817, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1669287839404865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839407393, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1669287839408698, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669287839408732, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839408738, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669287839410139, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669287839410179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839410186, "dur":5154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669287839415373, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1669287839415410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669287839415417, "dur":29282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1669287839444732, "dur":462109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839001777, "dur":1310, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839003092, "dur":10040, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839013147, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1669287839013149, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839013218, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1669287839013221, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839013268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839015762, "dur":82393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1669287839098158, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839098200, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839098232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839098266, "dur":58488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839156796, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839156836, "dur":16693, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839173544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839173557, "dur":59020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839232619, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839232654, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839232715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839232724, "dur":5663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839238425, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839238457, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839238682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839238690, "dur":4095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839242848, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839243181, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839243226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839243235, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839244926, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839244964, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839244998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839245006, "dur":127007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839372073, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839372590, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839372701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839372707, "dur":8527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839381272, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839381488, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839381552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839381561, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839384367, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839384399, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839384501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839384509, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839387764, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839387805, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839387846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839387853, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839391396, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839391431, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839391752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839391762, "dur":3625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839395470, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839395503, "dur":462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839395972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839395979, "dur":3056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839399066, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839399099, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839399240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839399257, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839401033, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839401064, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839401178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839401185, "dur":4278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669287839405491, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669287839405527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839405533, "dur":30605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669287839436177, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669287839436217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669287839436250, "dur":7577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669287839443862, "dur":463088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839002184, "dur":1006, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839003190, "dur":10800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839013991, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1669287839014054, "dur":366, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839014425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839027158, "dur":62278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1669287839089462, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669287839089493, "dur":4589, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839094088, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839094111, "dur":181948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669287839276359, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669287839276404, "dur":457, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839277147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839277156, "dur":18089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669287839295279, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669287839295312, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839295344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839295352, "dur":83763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669287839379152, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669287839379187, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839379304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669287839379312, "dur":165275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669287839544620, "dur":362783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839002147, "dur":1028, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839003175, "dur":10884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839014060, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1669287839014113, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839014391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839024878, "dur":108352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1669287839133327, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839133365, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839133398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839133405, "dur":99280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839232722, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839233137, "dur":2218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839235400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839235411, "dur":2610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839238068, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839238116, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839238159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839238166, "dur":48646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839286847, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839286885, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839286940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839286948, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839287795, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839287829, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839287860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839287867, "dur":16981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839304879, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839304918, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839304959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839304966, "dur":18596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839323597, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839323638, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839323668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839323678, "dur":18392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839342109, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839342234, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839342277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839342286, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839343126, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839343237, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839343385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839343393, "dur":23541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839367011, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839367213, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839367402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839367434, "dur":11138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839378611, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839378645, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839378967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669287839378975, "dur":77089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669287839456097, "dur":451278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839002277, "dur":925, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839003202, "dur":10781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839013984, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1669287839014037, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839014436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839033484, "dur":100001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1669287839133539, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839133574, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839133603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839133611, "dur":24106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839157750, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839157784, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839157816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839157825, "dur":119197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839277059, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839277093, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839277148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839277156, "dur":18694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839295893, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839295928, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839295961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839296265, "dur":76819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839373120, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839373236, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839373394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839373402, "dur":8814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839382252, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839382416, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839382505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839382513, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839385152, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839385183, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839385390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839385399, "dur":5004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839390435, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839390467, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839390611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839390619, "dur":3953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839394783, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839394821, "dur":2404, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839397233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839397242, "dur":6905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669287839404180, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1669287839404287, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839404347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839405750, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1669287839406480, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669287839406515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839406521, "dur":31977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669287839438529, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1669287839438583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839438590, "dur":4430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1669287839443054, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1669287839443181, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839443251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669287839443260, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1669287839444740, "dur":462062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839002945, "dur":410, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839003355, "dur":9831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839013188, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1669287839013327, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839013385, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839020527, "dur":211797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1669287839232371, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839232412, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839232493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839232501, "dur":5273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839237817, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839237859, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839238069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839238077, "dur":2429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839240557, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839240589, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839240643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839240651, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839241468, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839241499, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839241527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839241534, "dur":33625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839275199, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839275329, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839275431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839275440, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839277524, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839277671, "dur":580, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839278259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839278267, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839280470, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839280504, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839280539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839280546, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839283046, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839283104, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839283139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839283148, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839284782, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839284820, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839284850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839284859, "dur":21796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839306689, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839306726, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839306763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839306796, "dur":26854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839333686, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839333833, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839333868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839333875, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839335248, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839335675, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839335728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839335737, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839337392, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839337430, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839337462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839337470, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839338416, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839338643, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839338877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839338885, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839340035, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839340489, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839340534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839340543, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839342328, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839342484, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839342773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839342951, "dur":22522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839365518, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839365893, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839366050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839366061, "dur":11908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839378008, "dur":40034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839418043, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839418108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839418117, "dur":20837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669287839438991, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1669287839439027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839439033, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1669287839442276, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1669287839442315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669287839442322, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1669287839444221, "dur":462657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839002408, "dur":815, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839003224, "dur":10575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839013800, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1669287839013855, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839014248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839052894, "dur":23568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1669287839076494, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1669287839076528, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839076574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839076852, "dur":159386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1669287839236285, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839236324, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839236390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839236399, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839238031, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839238070, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839238126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839238134, "dur":18281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839256453, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839256599, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839256634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839256642, "dur":18406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839275086, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839275603, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839275690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839275697, "dur":3763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839279497, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839279532, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839279635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839279643, "dur":22160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839301834, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839301866, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839301894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839301902, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839304354, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839304390, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839304424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839304433, "dur":62458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839366933, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839367067, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839367199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839367208, "dur":5648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839372911, "dur":1337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839374249, "dur":2147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839376441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839376450, "dur":60208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669287839436694, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669287839436732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839436739, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669287839438688, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1669287839438746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669287839438753, "dur":7027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1669287839445822, "dur":460902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839002461, "dur":770, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839003232, "dur":10557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839013789, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1669287839013854, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839014342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839026964, "dur":204687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1669287839231694, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839231736, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839231862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839231873, "dur":18831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839250743, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839250968, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839251008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839251017, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839251897, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839252008, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839252043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839252055, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839252986, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839253237, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839253273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839253281, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839254659, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839254780, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839254814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839254822, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839255850, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839255984, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839256025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839256033, "dur":17971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839274051, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839274194, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839274368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839274377, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839275416, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839275456, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839275503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839275511, "dur":19249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839294800, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839294841, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839294878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839294888, "dur":72883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839367809, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839367934, "dur":1848, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839369791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839369799, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839372211, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839372421, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839372608, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839372646, "dur":6786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839379464, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839379602, "dur":727, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839380369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839380378, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839382960, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839383139, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839383262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839383270, "dur":2389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839385836, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839385884, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839385969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839385976, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839387624, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839387657, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839387723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839387732, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839389980, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839390026, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839390212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839390221, "dur":3557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839393810, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839393842, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839394001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839394009, "dur":3610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839397649, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839397685, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839397733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839397741, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839400518, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839400633, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839400669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839400675, "dur":6462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669287839407171, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1669287839407209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839407216, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1669287839410073, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":9, "ts":1669287839410112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839410119, "dur":4941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":9, "ts":1669287839415097, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1669287839415138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839415146, "dur":21765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1669287839436945, "dur":1433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1669287839438379, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839438640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839438650, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1669287839441195, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1669287839441231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669287839441237, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1669287839444157, "dur":462759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839002645, "dur":594, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839003239, "dur":10414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839013653, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1669287839013708, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839013739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839036591, "dur":14623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1669287839051239, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1669287839051265, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839051284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839051290, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1669287839052927, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839052971, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839053022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839053566, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839054931, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839054964, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839054984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839055034, "dur":5208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839060270, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1669287839060303, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839060343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839060348, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1669287839061877, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D.exe" }}
+,{ "pid":12345, "tid":10, "ts":1669287839061912, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839061938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839061943, "dur":171486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D.exe" }}
+,{ "pid":12345, "tid":10, "ts":1669287839233463, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839233499, "dur":1853, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839235391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839235401, "dur":10049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839245481, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839245517, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839245548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839245555, "dur":29889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839275493, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839275537, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839275573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839275580, "dur":3384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839279000, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839279033, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839279271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839279280, "dur":20073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839299385, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839299417, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839299476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839299485, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839301111, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839301144, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839301178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839301187, "dur":27019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839328243, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839328276, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839328311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839328320, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839330068, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839330101, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839330139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839330177, "dur":2660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839332920, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839332965, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839333202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839333247, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839334599, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839334638, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839334673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839334722, "dur":44070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839378832, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839378861, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839378964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669287839378972, "dur":131734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669287839510745, "dur":396364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669287839002662, "dur":584, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669287839003246, "dur":10334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669287839013580, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1669287839013628, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669287839013660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669287839021301, "dur":567036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1669287839588381, "dur":318763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839002718, "dur":535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839003254, "dur":10284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839013538, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1669287839013599, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839013632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839032886, "dur":16981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1669287839049892, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1669287839049922, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839049941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839049947, "dur":82547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1669287839132547, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669287839132588, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839132641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839132649, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669287839133739, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669287839133770, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839133800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839133808, "dur":19909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669287839153754, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669287839153789, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839153819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839153828, "dur":85781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669287839239648, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669287839239685, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839239738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669287839239745, "dur":215040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669287839454822, "dur":451700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669287839002799, "dur":464, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669287839003264, "dur":10198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669287839013463, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1669287839013525, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669287839013559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669287839032668, "dur":14861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1669287839047559, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1669287839047590, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669287839047612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669287839047738, "dur":858581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1669287839906365, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":13, "ts":1669287839906367, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839002835, "dur":506, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839003342, "dur":10071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839013414, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1669287839013482, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839013517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839051605, "dur":46560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1669287839098200, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839098239, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839098266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839098272, "dur":134740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839233080, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839233113, "dur":2336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839235455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839235461, "dur":41075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839276574, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839276916, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839277219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839277228, "dur":57865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839335130, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839335279, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839335312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839335319, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839336110, "dur":27236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839363348, "dur":1860, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839365219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839365230, "dur":6809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839372141, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839372946, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839373066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839373074, "dur":64705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669287839437812, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/resources.assets" }}
+,{ "pid":12345, "tid":14, "ts":1669287839437847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839437853, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/resources.assets" }}
+,{ "pid":12345, "tid":14, "ts":1669287839439939, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1669287839440048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669287839440056, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1669287839443355, "dur":463629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839002908, "dur":441, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839003349, "dur":9945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839013296, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1669287839013387, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839013440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839036413, "dur":195968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1669287839232424, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839232462, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839232582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839232590, "dur":4742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839237374, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839237411, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839237445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839237453, "dur":37276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839274770, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839274897, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839274990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839275009, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839277354, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839277387, "dur":814, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839278208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839278217, "dur":33661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839311920, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839311951, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839311983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839311992, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839312868, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839312907, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839312936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839312946, "dur":54202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839367214, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839367376, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839367430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839367437, "dur":4901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839372371, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839372553, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839372646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839372655, "dur":6485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839379181, "dur":1256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839380438, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839380661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839380670, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839384061, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839384217, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839384332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839384340, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839386769, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839386807, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839386842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839386849, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839389275, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839389305, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839389396, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839389403, "dur":3599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839393031, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839393064, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839393110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839393117, "dur":3519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839396666, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839396696, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839396811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839396818, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839398951, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839398985, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839399113, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839399120, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839402842, "dur":42379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839445230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669287839445790, "dur":4534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/Project_D_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669287839450423, "dur":456125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669287839002332, "dur":876, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669287839003208, "dur":10679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669287839013888, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1669287839013968, "dur":499, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669287839014472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669287839033052, "dur":639670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer.LAPTOP-KCPPHIFB/Desktop/game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1669287839672755, "dur":234350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669287839912324, "dur":2948, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1669287839934590, "dur": 37996, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669287839934425, "dur": 38207, "ph": "X", "name": "Write chrome-trace events", "args": {} },
