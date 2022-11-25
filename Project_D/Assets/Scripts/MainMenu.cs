@@ -20,7 +20,8 @@ public class MainMenu : MonoBehaviour
 
     public void DeleteAll(){
       //  DeleteSave_UI.SetActive(true);
-        SceneManager.LoadScene("OpenWorld");
+       // SceneManager.LoadScene(PlayerPrefs.GetInt("SavedScene"));
+       SceneManager.LoadScene("OpenWorld");
     }
 
     public void CloseDeletePanel(){

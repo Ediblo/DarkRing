@@ -5523,7 +5523,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10 / 50
+  m_Text: 20
 --- !u!222 &931936189
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6121,7 +6121,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WELCOME TO DARK KING
+  m_Text: WELCOME TO DARK RING
 --- !u!222 &1383294814
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7120,7 +7120,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1782864154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7697,7 +7697,6 @@ GameObject:
   - component: {fileID: 2090772157}
   - component: {fileID: 2090772156}
   - component: {fileID: 2090772155}
-  - component: {fileID: 2090772154}
   m_Layer: 5
   m_Name: 4th.infor
   m_TagString: Untagged
@@ -7727,24 +7726,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &2090772154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090772152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d11a827da889a8b4a8da74bb49af1791, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelText: {fileID: 1078876892}
-  hitpointText: {fileID: 931936188}
-  goldText: {fileID: 288157900}
-  xpText: {fileID: 0}
-  weaponSprite: {fileID: 1812631825}
-  xpBar: {fileID: 0}
 --- !u!114 &2090772155
 MonoBehaviour:
   m_ObjectHideFlags: 0
